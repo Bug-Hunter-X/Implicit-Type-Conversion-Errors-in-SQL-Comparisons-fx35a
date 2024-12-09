@@ -1,0 +1,3 @@
+# Implicit Type Conversion Errors in SQL Comparisons
+
+This repository demonstrates a common SQL error related to implicit type conversions during comparisons. Implicit type conversion can lead to unexpected results and data loss.  The example SQL code shows how comparing strings with integer columns or comparing different numeric data types without explicit casting can lead to unexpected results, even if the values seem equivalent.  The solution demonstrates using explicit casts for safe and accurate comparisons.
